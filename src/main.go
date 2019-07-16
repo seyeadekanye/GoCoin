@@ -15,6 +15,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
+// Block defines the structure of each block
 type Block struct {
 	Index     int
 	Timestamp string
@@ -23,6 +24,7 @@ type Block struct {
 	PrevHash  string
 }
 
+// Blockchain is a slice of Blocks
 var Blockchain []Block
 
 
